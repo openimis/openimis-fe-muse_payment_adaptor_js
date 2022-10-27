@@ -1,2 +1,7 @@
 {
+    "muse_payment_adaptor.HFBankAccountInfo.bank_account": "Bank Account",
+    "muse_payment_adaptor.HFBankAccountInfo.bank_name": "Bank Name",
+    "muse_payment_adaptor.HFBankAccountInfo.account_name": "Account Name",
+    "muse_payment_adaptor.HFBankAccountInfo.bic": "BIC",
+    "muse_payment_adaptor.HFBankAccountInfo.header": "MUSE Bank Account Information"
 }
