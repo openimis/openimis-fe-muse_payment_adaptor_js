@@ -150,4 +150,3 @@ export default withModulesManager(
         injectIntl(withTheme(withStyles(styles)(HFBankAccountInfo)))
     )
 );
-// export default withModulesManager((injectIntl(withTheme(withStyles(styles)(HFBankAccountInfo)))));
