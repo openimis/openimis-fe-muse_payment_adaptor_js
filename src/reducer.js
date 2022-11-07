@@ -37,6 +37,12 @@ import {
               fetchingBankAccountInfo: false,
               errorBankAccountInfo: formatServerError(action.payload),
           };
+        case 'MUSE_PAYMENT_REQUEST_REQ':
+          return dispatchMutationReq(state, action);
+        case 'MUSE_PAYMENT_REQUEST_RESP':
+          return dispatchMutationResp(state, "sendMusePaymentRequest", action);
+        case 'MUSE_PAYMENT_REQUEST_ERR':
+          return dispatchMutationErr(state, action);
         default:
             return state;
     }

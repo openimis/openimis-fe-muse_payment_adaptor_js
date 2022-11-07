@@ -51,7 +51,6 @@ class HFBankAccountInfo extends Component {
       };
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log(this.props.edited.mutationExtensions);
         if (prevProps.fetchingBankAccountInfo && this.props.fetchedBankAccountInfo) {
             if (!this.props.edited.mutationExtensions) {
                 this.props.edited.mutationExtensions = {}
