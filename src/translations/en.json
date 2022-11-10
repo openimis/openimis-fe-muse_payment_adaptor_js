@@ -3,5 +3,8 @@
     "muse_payment_adaptor.HFBankAccountInfo.bank_name": "Bank Name",
     "muse_payment_adaptor.HFBankAccountInfo.account_name": "Account Name",
     "muse_payment_adaptor.HFBankAccountInfo.bic": "BIC",
-    "muse_payment_adaptor.HFBankAccountInfo.header": "MUSE Bank Account Information"
+    "muse_payment_adaptor.HFBankAccountInfo.header": "MUSE Bank Account Information",
+    "muse_payment_adaptor.requestPayment": "Request MUSE Payment",
+    "muse_payment_adaptor.requestPayment.tooltip": "Request payments available only for validated bills.",
+    "muse_payment_adaptor.PaymentRequest.mutationLabel": "Payments Requested"
 }
